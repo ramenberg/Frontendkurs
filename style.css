@@ -13,45 +13,54 @@ body {
   margin: 0;
   background-color: #F1DEC9;
 }
+
 h1 {
   font-size: 24pt;
   font-family: Georgia, "Times New Roman", Times, serif;
   color: #E7AB9A;
 }
+
 h2 {
   font-size: 16pt;
   font-family: Georgia, "Times New Roman", Times, serif;
   color: #0E8388;
 }
+
 h3 {
   font-size: 14pt;
   font-family: Georgia, "Times New Roman", Times, serif;
   color: #0E8388;
 }
+
 a,
 a:visited,
 a:active {
   color: #0E8388;
 }
+
 a:hover {
   text-decoration: none;
 }
+
 #main {
   margin: 40pt 20pt 20pt 20pt;
   padding: 0;
   background-color: white;
   border: 3px solid #C8B6A6;
 }
+
 #header-wrapper {
   padding: 0;
   margin: 10pt;
 }
+
 #nav {
   clear: both;
   border-top: 3px solid #C8B6A6;
   border-bottom: 3px solid #C8B6A6;
   background-color: #0E8388;
 }
+
 #nav a,
 #nav a:visited,
 #nav a:active {
@@ -60,26 +69,31 @@ a:hover {
   font-size: 14pt;
   color: white;
 }
+
 #nav a:hover {
   color: #CBE4DE;
   text-decoration: none;
 }
+
 #content {
   margin: 10pt;
   height: 100%;
   padding-top: 20pt;
 }
+
 #footer {
   border-top: 3px solid #C8B6A6;
   clear: both;
   padding: 5pt;
   background-color: #0E8388;
 }
+
 #footer p {
   font-size: 12pt;
   text-align: center;
   color: white;
 }
+
 .aside-newsletter {
   background-color: #F1DEC9;
   float: right;
@@ -87,10 +101,12 @@ a:hover {
   border: 3px solid #0E8388;
   margin: 0;
 }
+
 .aside-newsletter h2,
 p {
   margin: 10pt 0 10pt 10pt;
 }
+
 .aside-img {
   float: right;
   min-width: 240px;
@@ -99,17 +115,20 @@ p {
   border: 0;
   margin-right: 0;
 }
+
 .article {
   float: left;
   width: 78%;
   height: 100%;
   margin: 0 5pt 0 0;
 }
+
 .header-left {
   float: left;
   margin: 0 auto;
   width: 78%;
 }
+
 .header-left p {
   margin-top: 0;
   font-family: Georgia, "Times New Roman", Times, serif;
@@ -117,11 +136,13 @@ p {
   color: #E7AB9A;
   text-transform: uppercase;
 }
+
 .header-right {
   float: right;
   margin: 0 0 5pt 0;
   width: 20%;
 }
+
 .header-right p {
   font-size: 11pt;
   font-weight: 600;
@@ -129,54 +150,84 @@ p {
   text-align: right;
   color: #0E8388;
 }
+
+img.portfolio {
+  width: 400px;
+  height: auto;
+  border: 0;
+  margin: 0 0 10pt 0;
+}
+img.startpage {
+  width: 250px;
+  height: auto;
+  border: 0;
+  margin: 0 0 10pt 0;
+}
+
+.invisible-hr {
+  display: none;
+}
+
 .left {
   text-align: left;
   margin: 0 auto;
 }
+
 .right {
   text-align: right;
   margin: 0 auto;
 }
+
 .center {
   text-align: center;
 }
+
 #nav ul {
   padding: 0 0 0 10pt;
 }
+
 #nav ul li {
   list-style-type: none;
   display: inline;
   margin: 0 20pt 0 0;
 }
+
 .no-border {
   border: 0;
 }
+
 table {
   border: 3pt solid #0E8388;
 }
+
 th {
   border: 3pt solid #C8B6A6;
 }
+
 td {
   border: 1pt solid #C8B6A6;
 }
+
 table thead {
   background-color: #0E8388;
   padding: 10pt;
   color: white;
   font-size: 14pt;
 }
+
 blockquote {
   border: 2pt solid #0E8388;
   padding: 5pt;
   background-color: #F1DEC9;
 }
+
 blockquote h3 {
   color: #E7AB9A;
   text-transform: uppercase;
   font-size: 14pt;
   font-family: Georgia, "Times New Roman", Times, serif;
 }
+
 p.code {
   background-color: white;
   padding: 10pt;
