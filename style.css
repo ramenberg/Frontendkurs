@@ -1,29 +1,37 @@
 /* Stylesheet för inlämningsuppgift 1*/
+
+/* Färger
+#E7AB9A - huvudtext
+#0E8388 - andra text
+#F1DEC9 - bakgrund
+#C8B6A6 - border
+*/
+
 body {
   font-family: Arial, Helvetica, sans-serif;
   padding: 0;
   margin: 0;
-  background-color: #fafdd6;
+  background-color: #F1DEC9;
 }
 h1 {
   font-size: 24pt;
   font-family: Georgia, "Times New Roman", Times, serif;
-  color: #e6ba95;
+  color: #E7AB9A;
 }
 h2 {
   font-size: 16pt;
   font-family: Georgia, "Times New Roman", Times, serif;
-  color: #a2b38b;
+  color: #0E8388;
 }
 h3 {
   font-size: 14pt;
   font-family: Georgia, "Times New Roman", Times, serif;
-  color: #a2b38b;
+  color: #0E8388;
 }
 a,
 a:visited,
 a:active {
-  color: #a2b38b;
+  color: #0E8388;
 }
 a:hover {
   text-decoration: none;
@@ -32,7 +40,7 @@ a:hover {
   margin: 40pt 20pt 20pt 20pt;
   padding: 0;
   background-color: white;
-  border: 3px solid #e4e9be;
+  border: 3px solid #C8B6A6;
 }
 #header-wrapper {
   padding: 0;
@@ -40,9 +48,9 @@ a:hover {
 }
 #nav {
   clear: both;
-  border-top: 3px solid #e4e9be;
-  border-bottom: 3px solid #e4e9be;
-  background-color: #a2b38b;
+  border-top: 3px solid #C8B6A6;
+  border-bottom: 3px solid #C8B6A6;
+  background-color: #0E8388;
 }
 #nav a,
 #nav a:visited,
@@ -53,8 +61,8 @@ a:hover {
   color: white;
 }
 #nav a:hover {
-  color: #fafdd6;
-  text-decoration: underline;
+  color: #CBE4DE;
+  text-decoration: none;
 }
 #content {
   margin: 10pt;
@@ -62,10 +70,10 @@ a:hover {
   padding-top: 20pt;
 }
 #footer {
-  border-top: 3px solid #e4e9be;
+  border-top: 3px solid #C8B6A6;
   clear: both;
   padding: 5pt;
-  background-color: #a2b38b;
+  background-color: #0E8388;
 }
 #footer p {
   font-size: 12pt;
@@ -73,10 +81,10 @@ a:hover {
   color: white;
 }
 .aside-newsletter {
-  background-color: #fafdd6;
+  background-color: #F1DEC9;
   float: right;
   width: 20%;
-  border: 3px solid #a2b38b;
+  border: 3px solid #0E8388;
   margin: 0;
 }
 .aside-newsletter h2,
@@ -106,7 +114,7 @@ p {
   margin-top: 0;
   font-family: Georgia, "Times New Roman", Times, serif;
   font-size: 50pt;
-  color: #e6ba95;
+  color: #E7AB9A;
   text-transform: uppercase;
 }
 .header-right {
@@ -119,7 +127,7 @@ p {
   font-weight: 600;
   line-height: 5pt;
   text-align: right;
-  color: #a2b38b;
+  color: #0E8388;
 }
 .left {
   text-align: left;
@@ -144,27 +152,27 @@ p {
   border: 0;
 }
 table {
-  border: 3pt solid #a2b38b;
+  border: 3pt solid #0E8388;
 }
 th {
-  border: 3pt solid #e4e9be;
+  border: 3pt solid #C8B6A6;
 }
 td {
-  border: 1pt solid #e4e9be;
+  border: 1pt solid #C8B6A6;
 }
 table thead {
-  background-color: #a2b38b;
+  background-color: #0E8388;
   padding: 10pt;
   color: white;
   font-size: 14pt;
 }
 blockquote {
-  border: 2pt solid #a2b38b;
+  border: 2pt solid #0E8388;
   padding: 5pt;
-  background-color: #fafdd6;
+  background-color: #F1DEC9;
 }
 blockquote h3 {
-  color: #e6ba95;
+  color: #E7AB9A;
   text-transform: uppercase;
   font-size: 14pt;
   font-family: Georgia, "Times New Roman", Times, serif;
